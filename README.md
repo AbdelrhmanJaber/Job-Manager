@@ -1,5 +1,8 @@
 🧑‍💼 JobManager – Laravel 12 Job Management System
-JobManager is a simple and efficient CRUD-based job management system built with Laravel 12, designed for both employers and job seekers. Employers can post, edit, and delete job listings, while job seekers can explore available opportunities.
+JobManager is a simple and efficient CRUD-based job management system built with Laravel 12,
+designed for both employers and job seekers.
+Employers can post, edit, and delete job listings,
+while job seekers can explore available opportunities.
 
 🚀 Features
 ✍️ Full CRUD System for managing job listings
@@ -44,11 +47,3 @@ Start the server:
 ```sh
 php artisan serve
 ```
-
-📘 API Endpoints
-Method	Endpoint	Description
-GET	/api/jobs	Get all job listings
-GET	/api/jobs/{id}	Get a specific job
-POST	/api/jobs	Create a new job
-PUT	/api/jobs/{id}	Update an existing job
-DELETE	/api/jobs/{id}	Delete a job listing
